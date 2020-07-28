@@ -1,0 +1,90 @@
+﻿@page
+@model KICKDRIVE.Pages.CRUDS.VehiculosModel
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+
+<h2 class="text-info">
+    Hola bienvenido
+</h2>
+<br />
+<body>
+
+    <div class="container">
+        <div style="border:2px solid dashed; margin:4px">
+            <div style="background-color:red; height:40px">
+                <div class="text-left">
+
+                    <div class="form-group">
+                        <div style="color: black">
+                            <h3 class="text-center">Escriba matricula</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<form method="post">
+            <label asp-for=""></label>
+            <input asp-for="" class="form-control" />
+        </form>-->
+
+
+        <br />
+        <div class="container-fluid" id="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form method="post">
+                            <!--<label asp-for=""></label>-->
+<!--                            <select asp-for="">
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+
+                            </select>-->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="container">
+            <a href="#HEY!" class="btn btn-primary btn-lg" data-toggle="modal">Atras</a>
+            <div class="modal fade" id="HEY!">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            <h4 class="modal-title">¿Estas seguro que quieres regresar?</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--contenido de ventana-->
+                <div class="modal-body">
+                    <p>Estas a punto de regresar al menu, ¿estas seguro?</p>
+                </div>
+                <!--Footer de la ventanita-->
+                <div class="modal-footer">
+                    <!--aun no jalan los botones-->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Continuar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerar</button>
+                </div>
+                <a asp-page="/home" class="btn btn-primary">Seleccionar</a>
+                <!--pantalla emergente, sigue en pruebas-->
+            </div>
+            <!--<div class="pager">
+                <a class="btn btn-primary btn-lg data-toggle"asp-page="/home">Atras</a>
+               <a class="btn btn-success btn-lg" asp-page="/home">Siguiete</a>
+            </div>-->
+        </div>
+    </div>
+</body>
