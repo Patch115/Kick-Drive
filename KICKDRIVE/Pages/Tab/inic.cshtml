@@ -2,31 +2,68 @@
 @model KICKDRIVE.Pages.Tab.inicModel
 @{
 }
-    <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Autobuces</h5>
-                <p class="card-text">Resgistro de autobuces</p>
+<div class="container">
+    <h1>Kik Drive</h1>
+    <h4 class="text-center">Kik Drive Mejorando el Gestionamineto</h4>
+    <div class="containerCard">
+        <div class="containercd">
+            <div class="row text-center align-content-center">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/IMG/Super.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Registro De Supervisores</h5>
+                            <a asp-area="" asp-page="/CRUDS/Supervisor/Index" class="btn btn-dark">Ver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">             
+                            <img class="card-img-top" src="~/IMG/chof.png" alt="Card image cap" />
+                            <div class="card-body">
+                                <h5 class="card-title">Registro De Conductores</h5>
+                                <a asp-area="" asp-page="/CRUDS/Conductores/Index" class="btn btn-dark">Ver</a>
+                            </div>
+                    </div>
+                </div>
                 <br />
-                <a href="#" class="btn btn-primary">Button</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/IMG/aut.png" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Registro De Usuarios</h5>
+                            <a asp-area="" asp-page="/CRUDs/Usuario/Index" class="btn btn-dark">Registrar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/IMG/ruta.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Registro De Rutas</h5>
+                            <a asp-area="" asp-page="/CRUDs/Rutas/Index" class="btn btn-dark">Registrar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/IMG/para.png" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Registro De Paradas</h5>
+                            <a asp-area="" asp-page="/CRUDs/Parada/Index" class="btn btn-dark">Registrar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/IMG/regi.png" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Registro De Autobuses</h5>
+                            <a asp-area="" asp-page="/CRUDs/autobuses/Index" class="btn btn-dark">Ver</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-<br />
+</div>

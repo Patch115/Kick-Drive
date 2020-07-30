@@ -1,12 +1,13 @@
-﻿@page  
-@model IndexModel
+﻿@page
+@model KICKDRIVE.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Index";
 }
-
 <div class="text-center">
     <div class="containerlogin">
-        <h1>KiCk Drive</h1>
+        <h1>Kick Drive</h1>
+        <h4 class="text-center">Hola, Bienvenido a Kick Drive</h4>
+        <img class="card-img-top" src="~/IMG/ICON.jpg" alt="" />
         <br />
         <h5 class="text-center">Inicie sesión para acceder</h5>
 
@@ -15,18 +16,17 @@
                 <div>
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre de usuario" name="us" />
+                            <input type="text" class="form-control" placeholder="Nombre de usuario" name="username" />
                         </div>
-
                         <div>
-                            <input type="password" class="form-control" placeholder="Contrasena" name="1234" />
+                            <input type="password" class="form-control" placeholder="Contrasena" name="password" />
                         </div>
 
                         <p class="submit">
 
                             <input asp-area="" asp-page="/Tab/inic" type="submit" name="login" class="button" value="Entrar" />
-
                         </p>
+
                     </form>
                 </div>
             </div>
