@@ -23,16 +23,6 @@
                 <input asp-for="Usuario.Password" class="form-control" />
                 <span asp-validation-for="Usuario.Password" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Usuario.CreateAT" class="control-label"></label>
-                <input asp-for="Usuario.CreateAT" class="form-control" />
-                <span asp-validation-for="Usuario.CreateAT" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Usuario.UpdateAT" class="control-label"></label>
-                <input asp-for="Usuario.UpdateAT" class="form-control" />
-                <span asp-validation-for="Usuario.UpdateAT" class="text-danger"></span>
-            </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Usuario.Status" /> @Html.DisplayNameFor(model => model.Usuario.Status)
