@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2rPXxMNMsVRL5EtKXv4KqkTxEritqsq/t5/vng/zIRoTCLp7xJfuo9IQ1KGMKC1jDwvZOZqXvFZpA+h1qgzvDw==",
+  "dgSpecHash": "lLFQlkPYlGK6zHJy2YY/nEFwtK2TFkzgUGLfY9wnhHg/AWtUZ3MHGhrGBampRmZs/oNsGORbAUveY+JYYb6rLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\KDControl.csproj",
+  "projectFilePath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

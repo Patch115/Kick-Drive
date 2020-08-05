@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\KDControl.csproj": {}
+    "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\KDControl.csproj": {
+    "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\KDControl.csproj",
+        "projectUniqueName": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj",
         "projectName": "KDControl",
-        "projectPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\KDControl.csproj",
+        "projectPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj",
         "packagesPath": "C:\\Users\\perzd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDControl\\obj\\",
+        "outputPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuNY77QVmjD2HwmGInONCsSUpLyyOqm2uqiiLEmRLeXWJQWCREvuSw+dJ8WOlb7cA06EAINRSkv9vchJA4lMoA==",
+  "dgSpecHash": "2M6tVrCNB6rfvdjkhngpEdNNaVseZ331+zXTnpULI7B8+VxlvFNh8ZCB5nWUtxDpkLLkVDBvyiXDZNjnHUqARA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\KICKDRIVE\\KDSevice\\KDSevice.csproj",
+  "projectFilePath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDSevice\\KDSevice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

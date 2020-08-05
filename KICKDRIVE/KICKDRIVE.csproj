@@ -23,4 +23,8 @@
     <ProjectReference Include="..\KDSevice\KDSevice.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\pdfmake\" />
+  </ItemGroup>
+
 </Project>

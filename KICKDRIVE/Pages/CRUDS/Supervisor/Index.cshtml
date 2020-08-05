@@ -1,15 +1,16 @@
 ﻿@page
 @model KICKDRIVE.Pages.CRUDS.Supervisor.IndexModel
 
-@{
-    ViewData["Title"] = "Index";
-}
+@{ ViewData["Title"] = "Index"; }
 
 <h1>Index</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<input type="button" value="get Whorkshop" class="btn btn-dark" onclick="createReport()" />
+
 <table class="table">
     <thead>
         <tr>
@@ -41,38 +42,67 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.SupervisorS) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Apellido_paterno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Apellido_materno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Contraseña)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreateAT)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdateAT)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+        @foreach (var item in Model.SupervisorS)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Apellido_paterno)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Apellido_materno)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Contraseña)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Usuario)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CreateAT)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.UpdateAT)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Status)
+    </td>
+    <td>
+        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+    </td>
+</tr>
 }
     </tbody>
 </table>
+
+@section Scripts
+{
+
+    <script src="~/lib/pdfmake/pdfmake.min.js"></script>
+    <script src="~/lib/pdfmake/vfs_fonts.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                alert('hola');
+                });
+        function getWorkshop() {
+            $.ajax({
+                url: "?handler=AsyncFullWorkshops",
+                    method: "GET"
+            }).done(function (data) {
+                createTable(data);
+            }).fail(function (jqXHR, textStatus, error) {
+                alert("uys: '(");
+        });
+        }
+    function createReport() {
+    var win = window.open('', '_blank');
+
+    var docDefinition = { content: 'hello nurse' };
+    pdfMake.createPdf(docDefinition).open({}, win);
+    }
+    </script>
+}
