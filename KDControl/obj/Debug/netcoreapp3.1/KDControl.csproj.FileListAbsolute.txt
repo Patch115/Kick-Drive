@@ -42,7 +42,7 @@ C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\bin
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.csprojAssemblyReference.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.AssemblyInfoInputs.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.AssemblyInfo.cs
-C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.csproj.CoreCompileInputs.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.dll
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.pdb
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.genruntimeconfig.cache
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KDControl\obj\Debug\netcoreapp3.1\KDControl.csproj.CoreCompileInputs.cache

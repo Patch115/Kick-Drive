@@ -584,8 +584,6 @@ C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\bin
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.csprojAssemblyReference.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.AssemblyInfoInputs.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.AssemblyInfo.cs
-C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.csproj.CoreCompileInputs.cache
-C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.RazorAssemblyInfo.cache
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.RazorAssemblyInfo.cs
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.TagHelpers.input.cache
@@ -643,3 +641,9 @@ C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.dll
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.pdb
 C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.genruntimeconfig.cache
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\Razor\Pages\CRUDS\AuTobus.cshtml.g.cs
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\Razor\Pages\CRUDS\Conductores.cshtml.g.cs
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\Razor\Pages\CRUDS\Home.cshtml.g.cs
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\Razor\Pages\CRUDS\Supervisores.cshtml.g.cs
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.csproj.CoreCompileInputs.cache
+C:\Users\perzd\3D Objects\ASP.NET\PROYECTO FINAL\Kick-Drive-master\KICKDRIVE\obj\Debug\netcoreapp3.1\KICKDRIVE.MvcApplicationPartsAssemblyInfo.cache
