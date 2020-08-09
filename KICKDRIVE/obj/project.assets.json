@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "iTextSharp/5.5.13.1": {
+        "type": "package",
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -3036,7 +3045,8 @@
           "KDControl": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.6",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
+          "iTextSharp": "5.5.13.1"
         },
         "compile": {
           "bin/placeholder/KDSevice.dll": {}
@@ -3048,6 +3058,22 @@
     }
   },
   "libraries": {
+    "iTextSharp/5.5.13.1": {
+      "sha512": "xqzsYEYW/nMDjCtAXM5cl9fWil/Ju3HEGbsmoTKtltJc3M/9HNJzg++bCIOHm5uZITvRmZJWMO+S2u1yNG0gQg==",
+      "type": "package",
+      "path": "itextsharp/5.5.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.5.5.13.1.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "sha512": "VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
       "type": "package",
@@ -9319,11 +9345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
+      "projectUniqueName": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
       "projectName": "KICKDRIVE",
-      "projectPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
+      "projectPath": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
       "packagesPath": "C:\\Users\\perzd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KICKDRIVE\\obj\\",
+      "outputPath": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KICKDRIVE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9343,11 +9369,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj": {
-              "projectPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDControl\\KDControl.csproj"
+            "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KDControl\\KDControl.csproj": {
+              "projectPath": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KDControl\\KDControl.csproj"
             },
-            "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDSevice\\KDSevice.csproj": {
-              "projectPath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KDSevice\\KDSevice.csproj"
+            "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KDSevice\\KDSevice.csproj": {
+              "projectPath": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KDSevice\\KDSevice.csproj"
             }
           }
         }
@@ -9407,5 +9433,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"iTextSharp 5.5.13.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

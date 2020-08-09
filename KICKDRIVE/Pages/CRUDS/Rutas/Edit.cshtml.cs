@@ -7,15 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using KDControl;
-using KDSevice;
 
 namespace KICKDRIVE.Pages.CRUDS.Rutas
 {
     public class EditModel : PageModel
     {
-        private readonly KDSevice.AppDbContex _context;
+        private readonly KDControl.AppDbContex _context;
 
-        public EditModel(KDSevice.AppDbContex context)
+        public EditModel(KDControl.AppDbContex context)
         {
             _context = context;
         }

@@ -6,15 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KDControl;
-using KDSevice;
 
 namespace KICKDRIVE.Pages.CRUDS.supervisores
 {
     public class DeleteModel : PageModel
     {
-        private readonly KDSevice.AppDbContex _context;
+        private readonly KDControl.AppDbContex _context;
 
-        public DeleteModel(KDSevice.AppDbContex context)
+        public DeleteModel(KDControl.AppDbContex context)
         {
             _context = context;
         }

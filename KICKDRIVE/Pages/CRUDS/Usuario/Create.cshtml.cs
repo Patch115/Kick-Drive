@@ -6,15 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using KDControl;
-using KDSevice;
 
 namespace KICKDRIVE.Pages.CRUDS.Usuario
 {
     public class CreateModel : PageModel
     {
-        private readonly KDSevice.AppDbContex _context;
+        private readonly KDControl.AppDbContex _context;
 
-        public CreateModel(KDSevice.AppDbContex context)
+        public CreateModel(KDControl.AppDbContex context)
         {
             _context = context;
         }

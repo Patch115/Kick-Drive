@@ -9,7 +9,7 @@
     <a asp-page="Create">Create New</a>
 </p>
 
-<input type="button" value="get Whorkshop" class="btn btn-dark" onclick="createReport()" />
+<a asp-page-handler="Report" class="btn btn-dark">Crear reporte</a>
 
 <table class="table">
     <thead>
@@ -85,24 +85,57 @@
     <script src="~/lib/pdfmake/pdfmake.min.js"></script>
     <script src="~/lib/pdfmake/vfs_fonts.js"></script>
     <script type="text/javascript">
-            $(document).ready(function () {
-                alert('hola');
-                });
-        function getWorkshop() {
-            $.ajax({
-                url: "?handler=AsyncFullWorkshops",
-                    method: "GET"
-            }).done(function (data) {
-                createTable(data);
-            }).fail(function (jqXHR, textStatus, error) {
-                alert("uys: '(");
-        });
-        }
-    function createReport() {
+            //$(document).ready(function () {
+            //    alert('hola');
+            //    });
+        //function getWorkshop() {
+        //    $.ajax({
+        //        url: "?handler=AsyncFullWorkshops",
+        //            method: "GET"
+        //    }).done(function (data) {
+        //        createTable(data);
+        //    }).fail(function (jqXHR, textStatus, error) {
+        //        alert("uys: '(");
+        //});
+        //}
+    function createReport(data) {
     var win = window.open('', '_blank');
+        var docDefinition = {
+            content: [
+                'Supervisores',
+                { text: '', style: 'header' },
+                {
+                    stke: 'tableExample',
+                    table: {
+                        body: [
+                            ['Nombre', 'Apellido_paterno', 'Apellido_materno', 'Contraseña', 'Usuario', 'CreateAT'],
+                           
+                            [,'Perez','dzib','1234','9i9','04/ 08 / 2020 07: 00: 10 p.m.'],
+                            ['', '', '', '', '', ''],
+                        ]
+                    }
+                }
+            ],
+            style: {
+                header: {
+                    fontSize: 18,
+                    bold: true,
+                    margin: [0, 0, 0, 10]
+                },
+                subheader: {
+                    fontSize: 16,
+                    bold: true,
+                    margin: [0, 10, 0, 5]
+                },
+                tableExample: {
+                    margin: [0, 0, 0, 15]
+                },
+                tableHeader: {
 
-    var docDefinition = { content: 'hello nurse' };
-    pdfMake.createPdf(docDefinition).open({}, win);
+                },
+            }
+        };
+        pdfMake.createPdf(docDefinition).open({}, win);
     }
     </script>
 }

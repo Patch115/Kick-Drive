@@ -6,15 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KDControl;
-using KDSevice;
 
 namespace KICKDRIVE.Pages.CRUDS.Parada
 {
     public class DetailsModel : PageModel
     {
-        private readonly KDSevice.AppDbContex _context;
+        private readonly KDControl.AppDbContex _context;
 
-        public DetailsModel(KDSevice.AppDbContex context)
+        public DetailsModel(KDControl.AppDbContex context)
         {
             _context = context;
         }

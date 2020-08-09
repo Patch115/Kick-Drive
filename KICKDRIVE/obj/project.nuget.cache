@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+1K2ualjS+r4ujsmBECETWJyHTJ83tVOUwg0vjuWn5iqwsva3nh+AUR7B5QJpBHnF1hkQ7qHGSxBBNtnRZ/tbw==",
+  "dgSpecHash": "bIpouFQ5Vdjvo8kDv3wo6p/SfTp3Gk1HnFz58eLHg2GKMvxe10JzWu0mQVQ+KNev3VMm31Lwcv/NDbhPfZqLgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\perzd\\3D Objects\\ASP.NET\\PROYECTO FINAL\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
+  "projectFilePath": "C:\\Users\\perzd\\Desktop\\Kick-Drive-master\\KICKDRIVE\\KICKDRIVE.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\perzd\\.nuget\\packages\\itextsharp\\5.5.13.1\\itextsharp.5.5.13.1.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
@@ -193,5 +194,16 @@
     "C:\\Users\\perzd\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\perzd\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"iTextSharp 5.5.13.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

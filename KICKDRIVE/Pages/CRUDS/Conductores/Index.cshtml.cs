@@ -6,15 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KDControl;
-using KDSevice;
 
 namespace KICKDRIVE.Pages.CRUDS.Conductores
 {
     public class IndexModel : PageModel
     {
-        private readonly KDSevice.AppDbContex _context;
+        private readonly KDControl.AppDbContex _context;
 
-        public IndexModel(KDSevice.AppDbContex context)
+        public IndexModel(KDControl.AppDbContex context)
         {
             _context = context;
         }
